@@ -1,0 +1,19 @@
+
+
+h1 {
+    text-align: center;
+}
+
+img.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+body {
+    background-color: cadetblue
+}
+
+p {
+    color: green;
+}
