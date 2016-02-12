@@ -1,29 +1,103 @@
+@charset "utf-8";
 
-
-h1.title {
-    text-align: center;
-    color: forestgreen;
-    background-color: black;
+/*set up the baseline for the page so browser defaults
+  don't make things weird*/
+body, h1, h2, h3, h4, h5, h6, p, div, ul,li {
+    margin:0;
+    padding:0;
 }
 
-h1.title:hover {
-    background-color: white;
-}
-
-img.profile {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#dark {
-    background-color: darkblue;
-}
 
 body {
-    background-color: darkcyan
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: darkcyan;
 }
 
+/*
+  p.dark {
+  background-color: darkblue;
+  }
+
 p {
-    color: goldenrod;
+color: goldenrod;
 }
+*/
+
+/* put whole page in container */
+
+#homePage {
+    left:5%;
+    width:90%;
+    top:1%;
+    position:absolute
+}
+
+#header {
+    color: white;
+    text-align: center;
+    background-image: url('../images/header');
+}
+
+#headerLine {
+    background-color: black;
+    height:5px;
+}
+
+#links {
+    background-color: #777;
+}
+
+#linkNav {
+    height: 41px;
+}
+
+#linkNav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#linkNav ul li {
+    float: left;
+}
+
+
+#linkNav ul li a {
+    display: inline-block;
+    /* margin-right:269px; */
+    color:white;
+    padding: 10px 10px;
+    text-align:center;
+    text-decoration:none; 
+}
+
+#linkNav ul li a:hover {
+    background-color: #111
+}
+
+#about {
+    background: darkslategray;
+}
+
+#aboutContent {
+    left: 14%;
+    width: 72%;
+    height:400px;
+    margin: 0 auto;
+    background: #333;
+    border: 1px solid black
+}
+
+#aboutContent img {
+    float:left;
+    border:1px solid black;
+    background: #333;
+    padding:16px;
+    margin: 0.7em;
+    background:-moz-linear-gradient(top,#000,#333);
+    background:-webkit-gradient(linear,left top, left bottom, from(#000), to(#666));
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px
+}
+    
