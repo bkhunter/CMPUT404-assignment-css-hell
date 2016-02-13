@@ -1,0 +1,72 @@
+
+body {
+    background-image: url('images/background2.jpg');
+}
+p {
+    font-family: serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 20px;
+    color:#000;
+    
+}
+
+h1,h2,h3 {
+    color: firebrick;
+    font-family: Impact;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26.4px;
+    box-shadow: 10px 10px 5px #111;
+    background:#333
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: gold;
+    background: url('images/ornate.jpg');
+    
+}
+
+a {
+    color:#111;
+    font-style:oblique;
+    font-size:150%
+    text-decoration:underline;
+}
+
+a:link {
+    color:#111;
+    text-decoration:underline;
+    font-style:oblique;
+    font-size:150%
+}
+
+link {
+    color:#111;
+    font-style:oblique;
+    text-decoration:underline;
+    font-size:150%
+}
+
+a:visited {
+    color:#222;
+    text-decoration:none;
+    font-style:oblique;
+    font-size:150%
+}
+
+a:hover {
+    color:#555;
+    text-decoration:underline;
+    font-style:normal;
+    font-size:150%
+}
+
+img {
+    height:50%;
+    width:40%;
+    border: 10px solid #111;
+    box-shadow: 10px 10px 5px firebrick;
