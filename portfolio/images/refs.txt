@@ -1,1 +1,15 @@
-header image from http://coverlayout.com/facebook/covers/gradient_blue_black_green/
+header   http://coverlayout.com/facebook/covers/gradient_blue_black_green/
+c++      http://stuff-heap.blogspot.ca/2012/10/c-program-to-add-two-fractions.html
+python   https://commons.wikimedia.org/wiki/File:Python_for_iOS_App_Icon.png
+unity    http://errant-works.com/games
+3dsmax	 http://www.autodesk.com/education/free-software/3ds-max
+3dsmax   https://en.wikipedia.org/wiki/Autodesk_3ds_Max
+v.Studio https://www.iconfinder.com/icons/167598/visualstudio_icon
+php 	 https://www.iconfinder.com/icons/167598/visualstudio_icon
+sql	 https://www.iconfinder.com/search/?q=sql
+html	 http://iconsineed.com/Icons.aspx?p=298&c=publicons
+css	 https://www.iconfinder.com/icons/308101/code_css_document_file_file_type_html_js_stylesheet_icon
+
+gradients
+http://uigradients.com/#
+http://www.w3schools.com/css/css3_gradients.asp
