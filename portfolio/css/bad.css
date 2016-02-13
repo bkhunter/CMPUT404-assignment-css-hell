@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+/*set up the baseline for the page so browser defaults
+  don't make things weird*/
+body, h1, h2, h3, h4, h5, h6, p, div, ul,li {
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: chartreuse;
+}
+
+/* put whole page in container */
+
+#homePage {
+    left:5%;
+    width:90%;
+    top:18%;
+    position:absolute
+}
+
+#header {
+    color:#ffff66;
+    text-align: center;
+    background-image: url('../images/glitterLightning.jpeg');
+    height:300px;
+}
+
+#headerLine {
+    background-color: white;
+    height:20px;
+}
+
+
+/*------------------links/navbar---------------*/
+#links {
+    background-color: #666600;
+}
+
+#linkNav {
+    height: 41px;
+}
+
+#linkNav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#linkNav ul li {
+    float: left;
+    padding-left: 12em;
+    padding-right: 3em;
+}
+
+
+#linkNav ul li a {
+    display: inline-block;
+    /* margin-right:269px; */
+    color:blue;
+    background: white;
+    padding: 10px 10px;
+    text-align:center;
+    text-decoration:underline;
+    font-size: 15pt;
+}
+
+/*---------------------------------------------*/
+
+
+
+
+/*----------------------spacers------------------*/
+.spacer1 {
+    height:20vh;
+    background: #525252; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, chartreuse ,  #666600); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, chartreuse ,  #666600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.spacer2 {
+    height:20vh;
+    background-image: url('../images/hearts.jpg');
+}
+
+/*-----------------------------------------------*/
+
+
+
+/*------------------about me section-----------*/
+
+#about {
+    background: pink;
+}
+
+#aboutHeader {
+    background:#d580ff;
+    color:chartreuse;
+} 
+
+#aboutContent {
+    height:65vh;
+    margin: 0 auto;
+    background: #33ffff;
+    border: 5px solid white
+}
+
+#aboutContent p {
+    color: white;
+}
+
+#aboutContent img {
+    float:left;
+    border:1px solid black;
+    background: #d580ff;
+    padding:16px;
+    margin: 0.7em;
+    height: 48vh;
+    width: 25vw;
+    background:-moz-linear-gradient(top,yellow,orange);
+    background:-webkit-gradient(linear,left top, left bottom, from(yellow), to(red));
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px
+}
+/*-----------------------------------------------*/
+
+
+
+
+/*------------------what I have to offer----------*/
+
+
+#offer {
+    background:#d580ff;
+}
+
+#offerHeader {
+    background:#d580ff;
+    color:chartreuse;
+} 
+
+#offerContent {
+    height:90vh;
+    margin: 0 auto;
+    background: #fff;
+    border: 5px solid #d580ff
+}
+
+#offerContent ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#offerContent ul li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+   
+.label {
+    color: blue;
+    text-align:left;
+}
+
+.text {
+    color:yellow;
+    text-align:left;
+    font-size: 16pt;
+}
+
+#offerContent h2 {
+    color: #d580ff;
+    background:yellow;
+}
+
+#offerContent img {
+    float:left;
+    border:1px solid black;
+    background: #333;
+    padding:8px;
+    height: 8vh;
+    width: 4vw;
+    margin: 0.7em;
+    background:-moz-linear-gradient(top,#000,#333);
+    background:-webkit-gradient(linear,left top, left bottom, from(#000), to(#666));
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px
+}
+
+/* -----------professional history-------*/
+
+
+#history {
+    background: #3b2612;
+}
+
+#historyHeader {
+    background: #3b2612;
+    color:white;
+} 
+
+#historyContent {
+    height:100vh;
+    margin: 0 auto;
+    background: #999900;
+}
+
+#historyContent ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+#historyContent ul li {
+    float: left;
+    padding-left: 1em;
+    padding-right: 0.5em;
+}
+    
+#historyContent p {
+    color: brown;
+    text-align:center;
+    max-width: 26.5vw;
+    padding-left: 5px;
+}
+
+#historyContent h2 {
+    color: grey;
+    background:#444;
+}
+
+#historyContent h3 {
+    text-align: right;
+    color: gold;
+}
+
+#historyContent img {
+    float:left;
+    border:1px solid black;
+    background: #333;
+    padding:8px;
+    height: 35vh;
+    width: 24.5vw;
+    margin: 0.7em;
+    background:-moz-linear-gradient(top,#000,#333);
+    background:-webkit-gradient(linear,left top, left bottom, from(#000), to(#666));
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px
+}

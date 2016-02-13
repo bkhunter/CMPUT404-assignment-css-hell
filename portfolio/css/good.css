@@ -11,6 +11,7 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul,li {
 body {
     font-family: Verdana, Geneva, sans-serif;
     background-color: #01041D;
+    color:#3d78b8;
 }
 
 /* put whole page in container */
@@ -51,14 +52,13 @@ body {
 
 #linkNav ul li {
     float: left;
-    padding-left: 13em;
+    padding-left: 11em;
     padding-right: 3em;
 }
 
 
 #linkNav ul li a {
     display: inline-block;
-    /* margin-right:269px; */
     color:white;
     padding: 10px 10px;
     text-align:center;
@@ -209,7 +209,7 @@ body {
 } 
 
 #historyContent {
-    height:80vh;
+    height:90vh;
     margin: 0 auto;
     background: #333;
     border: 1px solid black
@@ -229,7 +229,7 @@ body {
     
 #historyContent p {
     color: white;
-    text-align:center;
+    text-align:left;
     max-width: 26.5vw;
     padding-left: 5px;
 }
